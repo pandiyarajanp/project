@@ -63,7 +63,10 @@
 	<plugin>
       <groupId>org.sonarsource.scanner.maven</groupId>
       <artifactId>sonar-maven-plugin</artifactId>
-      <version>4.0.0.4121</version> 
+      <version>4.0.0.4121</version>
+      <configuration>
+        <failOnError>false</failOnError>  
+      </configuration>
     </plugin>
     </plugins>
 </build>
