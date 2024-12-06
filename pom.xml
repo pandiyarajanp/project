@@ -54,7 +54,7 @@
         <plugin>
             <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.3</version> <!-- Compatible with SonarQube versions prior to 5.6 -->
+            <version>3.3.0.603</version> <!-- Compatible with SonarQube versions prior to 5.6 -->
         </plugin>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
